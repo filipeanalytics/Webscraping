@@ -2,7 +2,6 @@ Download ChromeDriver from https://chromedriver.chromium.org/
 Save it in a folder that you can find easily.
 
 In the Python code, update the path to where you saved your chrome plugin (chromedriver.exe)
-#  Connect to Browser
 DRIVER_PATH = "C:/Users/filip/Documents/PythonFiles/chromedriver"
 browser = webdriver.Chrome(DRIVER_PATH)
 
