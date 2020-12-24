@@ -1,3 +1,7 @@
+This Python application scrapes Udemy website to collect 9 course details like course title and price. It does that by locating the search field and passing two searches (Python and Data Analytics), one at a time. Then it scrapes the courses content with the help of a user defined function and some further cleansing for the price. 
+
+With a cleansed data, the application saves all course details in a Dataframe and then in a list of objects of a user defined Class (Course). Lastly the application prints all courses details and stores the Dataframe in a csv file.
+
 Download ChromeDriver from https://chromedriver.chromium.org/
 Save it in a folder that you can find easily.
 
